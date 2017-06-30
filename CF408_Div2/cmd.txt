@@ -1,1 +1,3 @@
-gcc A.cpp -lstdc++ -o test
+gcc A.cpp -lstdc++ -o test  
+
+testing for gcc
