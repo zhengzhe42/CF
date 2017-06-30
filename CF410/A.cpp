@@ -20,9 +20,4 @@ int main(){
 	if(count==1 || l==r) cout << "YES" << endl;
 	else cout << "NO" << endl;
 	return 0;
-<<<<<<< HEAD
-
-	
-=======
->>>>>>> 0d12ef986e58e249182b75f961b5ad6b099506cf
 }
