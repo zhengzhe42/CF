@@ -9,4 +9,5 @@ int main(){
 	if(a==b) cout << a << endl;
 	else cout << "2" << endl;
 	return 1;
+	
 }
