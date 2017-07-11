@@ -9,7 +9,8 @@ struct node{												// create struct
 	int start; int end; int cost;
 }node1[maxn], node2[maxn];
 
-vector<long long> mincost(maxn, INT_MAX);
+//vector<long long> mincost(maxn, INT_MAX);
+long long mincost[maxn];
 
 bool compare1(const node &n1, const node &n2){				// compare function 
 	return n1.start <n2.start;
@@ -26,6 +27,7 @@ int main(){
 	int n, x, i, j, res;
 	res = INT_MAX;
 	cin >> n >> x;
+	for(i=0; i<maxn; i++) mincost[i] = INT_MAX;
 	for(i=0; i<n; i++){
 		cin >> node1[i].start >> node1[i].end >> node1[i].cost;
 		node2[i] = node1[i];
